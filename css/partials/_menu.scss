@@ -1,0 +1,22 @@
+
+a {
+	color: $primary-blue;
+	text-decoration: none;
+}
+nav {
+	height: 200px;
+	background: white;
+	// position: fixed;
+	width: 100%;
+	display: block;
+	ul {
+		li {
+			display: inline-block;
+		}
+	}
+	h5.scroll {
+		position: fixed;
+		top: 150px;
+		color: $white;
+	}
+}
